@@ -406,9 +406,11 @@ var width = 4000;
         .attr("transform", d => d.data.id >= 19 ? `rotate(90, ${d.x}, ${d.y})` : "")
         
         .style("font-size", "15px")
-        //.style("font-weight", "bold")
-        .style("fill", "yellow");
+        .style("font-weight", "400")
+        .style("fill", "#EEEEEE")
+        .style("font-family", "Martel");
 
+        
 
 
         function zoomed() {
